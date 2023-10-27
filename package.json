@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.8.2",
+    "@supabase/auth-ui-react": "^0.4.6",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.38.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.289.0",
@@ -26,6 +30,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
     "postcss": "^8",
+    "supabase": "^1.106.1",
     "tailwindcss": "^3",
     "typescript": "^5"
   }
